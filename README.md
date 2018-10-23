@@ -36,8 +36,8 @@
 
 - SPAS: refers to single page applications like gmail. Only the changed content get rerendered, not a full reload. Why its super fast.
 - bundle.js is the combination of all js code, it's downloaded everytime the page reloads.
-- "<a href="url"/>" tags is going to fully reload everytime you clicks it. Replace with <Link />
-- "<Link to="url"/>" tags prevent the web from fully reloading. Instead, it only changes the url, which triggers Route to load the component only
+- (a href="url") tags is going to fully reload everytime you clicks it. Replace with <Link />
+- (Link to="url") tags prevent the web from fully reloading. Instead, it only changes the url, which triggers Route to load the component only
 
         import { Link } from "react-router-dom";
         <Link to="/">Home</Link>
